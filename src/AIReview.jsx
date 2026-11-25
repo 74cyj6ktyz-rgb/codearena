@@ -16,7 +16,7 @@ export default function AIReview({ code = "", language = "Python", problem = "" 
     setReview("");
 
     try {
-      const response = await fetch("http://localhost:5001/api/review", {
+      const response = await fetch("https://codearena-0sir.onrender.com/api/review", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",

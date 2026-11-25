@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 
-const API = "http://localhost:5001";
+const API = "https://codearena-0sir.onrender.com";
 
 const problems = [
   {
